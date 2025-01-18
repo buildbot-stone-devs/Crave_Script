@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
@@ -25,7 +24,7 @@ echo "============================"
 #echo "Clone success"
 
 # Export
-export BUILD_USERNAME=KhnomexMayuresh
+export BUILD_USERNAME=JonTMN
 export BUILD_HOSTNAME=crave
 # export BUILD_BROKEN_DISABLE_BAZEL_SANDBOXING=1
 export TZ="Europe/Vilnius"
@@ -36,7 +35,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-ap4a-userdebug
+lunch yaap_stone-userdebug
 echo "============="
 
 # Build rom
