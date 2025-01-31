@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b yaap-a15-wip https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
+git clone -b yaap-a15-libperf https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -19,10 +19,6 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-# Cloning custom apps
-#rm -rf packages/apps/Settings
-#git clone https://github.com/Yaap-stone-devs//yaap_packages_apps_Settings.git packages/apps/Settings
-#echo "Clone success"
 
 # Export
 export BUILD_USERNAME=KhnomexMayuresh
