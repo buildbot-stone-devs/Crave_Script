@@ -21,7 +21,6 @@ echo "============================"
 # Export
 export BUILD_USERNAME=KhnomexMayuresh
 export BUILD_HOSTNAME=crave
-# export BUILD_BROKEN_DISABLE_BAZEL_SANDBOXING=1
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
 
