@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
@@ -19,15 +18,9 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-# Cloning custom apps
-#rm -rf packages/apps/Settings
-#git clone https://github.com/Yaap-stone-devs//yaap_packages_apps_Settings.git packages/apps/Settings
-#echo "Clone success"
-
 # Export
 export BUILD_USERNAME=KhnomexMayuresh
 export BUILD_HOSTNAME=crave
-# export BUILD_BROKEN_DISABLE_BAZEL_SANDBOXING=1
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
 
@@ -36,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-ap4a-userdebug
+lunch yaap_stone-userdebug
 echo "============="
 
 # Build rom
