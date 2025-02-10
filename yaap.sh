@@ -19,7 +19,7 @@ echo "============================"
 echo "============================"
 
 # Export
-export BUILD_USERNAME=KhnomexMayuresh
+export BUILD_USERNAME=MayureshXKhnome
 export BUILD_HOSTNAME=crave
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
@@ -29,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-userdebug
+lunch yaap_stone-user
 echo "============="
 
 # Build rom
