@@ -20,7 +20,7 @@ echo "============================"
 
 # Export
 export BUILD_USERNAME=MayureshxKhnome
-export BUILD_HOSTNAME=crave
+export BUILD_HOSTNAME=nobody
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
 
