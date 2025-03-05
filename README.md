@@ -20,3 +20,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/Yaap-stone-devs/
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/Yaap-stone-devs/Crave_Script/refs/heads/main/yaap_sign.sh | bash"
 ```
+# YAAP Vanilla Command:
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/Yaap-stone-devs/Crave_Script/refs/heads/main/yaap_vanilla.sh | bash"
+```
