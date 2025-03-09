@@ -14,6 +14,8 @@ echo "============================"
 echo "Local manifest clone success"
 echo "============================"
 
+rm -rf frameworks/base
+
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
