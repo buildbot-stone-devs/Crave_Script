@@ -18,8 +18,7 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-rm -rf frameworks/base
-git clone https://github.com/ProjectMatrixx/android_frameworks_base.git -b 15wip frameworks/base
+git cherry-pick 322f46f8842d289b10796e263a8898e705f341f8
 
 # Export
 export BUILD_USERNAME=MayureshxKhnome
