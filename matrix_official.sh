@@ -14,13 +14,12 @@ echo "============================"
 echo "Local manifest clone success"
 echo "============================"
 
-rm -rf frameworks/base
-
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
 
-git cherry-pick 322f46f8842d289b10796e263a8898e705f341f8
+rm -rf frameworks/base
+git clone https://github.com/Mayuresh2543/android_frameworks_base.git frameworks/base
 
 # Export
 export BUILD_USERNAME=MayureshxKhnome
