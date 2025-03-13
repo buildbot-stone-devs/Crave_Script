@@ -19,9 +19,6 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-rm -rf frameworks/base
-git clone https://github.com/Mayuresh2543/android_frameworks_base.git frameworks/base
-
 # Export
 export BUILD_USERNAME=MayureshxKhnome
 export BUILD_HOSTNAME=nobody
@@ -40,7 +37,5 @@ echo "Signing success"
 echo "====== Envsetup Done ======="
 
 # Brunch
-lunch lineage_stone-ap4a-eng
+brunch stone
 echo "============="
-
-m bacon
