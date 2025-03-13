@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
+rm -rf frameworks/base
 
 # Rom source repo
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
@@ -17,9 +18,6 @@ echo "============================"
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
-
-rm -rf frameworks/base
-git clone https://github.com/Mayuresh2543/android_frameworks_base.git frameworks/base
 
 # Export
 export BUILD_USERNAME=MayureshxKhnome
@@ -39,5 +37,5 @@ echo "Signing success"
 echo "====== Envsetup Done ======="
 
 # Brunch
-brunch stone-eng
+brunch stone
 echo "============="
