@@ -40,5 +40,5 @@ echo "Signing success"
 echo "====== Envsetup Done ======="
 
 # Brunch
-brunch stone
+brunch stone-eng
 echo "============="
