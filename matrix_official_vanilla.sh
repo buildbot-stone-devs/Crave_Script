@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
-rm -rf frameworks/base
 
 # Rom source repo
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
@@ -36,6 +35,9 @@ echo "Signing success"
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
+
+lunch lineage_stone-ap4a-eng
+m bacon
 # Brunch
-brunch stone
+#brunch stone
 echo "============="
