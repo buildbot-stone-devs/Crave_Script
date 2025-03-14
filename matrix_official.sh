@@ -36,6 +36,7 @@ echo "Signing success"
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-# Brunch
-brunch stone-eng
+lunch lineage_stone-ap4a-eng
+
+m bacon
 echo "============="
