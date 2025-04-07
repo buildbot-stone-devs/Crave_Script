@@ -18,7 +18,7 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-git clone https://github.com/Yaap-stone-devs/vendor_priv-keys_keys.git vendor/priv-keys/keys
+#git clone https://github.com/Yaap-stone-devs/vendor_priv-keys_keys.git vendor/priv-keys/keys
 
 # Export
 export BUILD_USERNAME=MayureshXKhnome
