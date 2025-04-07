@@ -18,9 +18,6 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-rm -rf frameworks/base
-git clone https://github.com/Mayuresh2543/frameworks_base_yaap.git frameworks/base
-
 # Export
 export BUILD_USERNAME=MayureshXKhnome
 export BUILD_HOSTNAME=crave
@@ -32,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-user
+lunch yaap_stone-eng
 echo "============="
 
 # Build rom
