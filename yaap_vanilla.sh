@@ -32,5 +32,7 @@ echo "====== Envsetup Done ======="
 lunch yaap_stone-eng
 echo "============="
 
+make clean
+
 # Build rom
 m yaap
