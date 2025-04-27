@@ -9,7 +9,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b a15-libperf-vanilla https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
+git clone -b yaap-a15-vanilla https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
