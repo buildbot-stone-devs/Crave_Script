@@ -18,6 +18,8 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
+git clone https://github.com/buildbot-stone-devs/vendor_xioami_stone_yaap_new.git vendor/xiaomi/stone
+
 # Export
 export BUILD_USERNAME=MayureshXKhnome
 export BUILD_HOSTNAME=crave
