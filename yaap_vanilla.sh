@@ -18,8 +18,6 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
-git clone https://github.com/buildbot-stone-devs/vendor_priv-keys_keys.git vendor/priv-keys/keys
-
 # Export
 export BUILD_USERNAME=MayureshXKhnome
 export BUILD_HOSTNAME=crave
