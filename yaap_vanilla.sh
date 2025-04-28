@@ -1,6 +1,8 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
+rm -rf device/xiaomi/stone
+rm -rf vendor/xiaomi/stone
 
 # Rom source repo
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
