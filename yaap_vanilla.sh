@@ -19,7 +19,7 @@ echo "============================"
 echo "============================"
 
 git clone https://github.com/buildbot-stone-devs/vendor_xioami_stone_yaap_new.git vendor/xiaomi/stone
-
+git clone https://github.com/Mayuresh2543/device_xiaomi_stone_yaap.git device/xiaomi/stone
 # Export
 export BUILD_USERNAME=MayureshXKhnome
 export BUILD_HOSTNAME=crave
