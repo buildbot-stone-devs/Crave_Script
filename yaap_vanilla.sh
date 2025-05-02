@@ -29,7 +29,7 @@ source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
 # Lunch
-lunch yaap_stone-eng
+lunch yaap_stone-user
 echo "============="
 
 # Build rom
