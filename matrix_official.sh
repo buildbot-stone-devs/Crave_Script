@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
-rm -rf frameworks/base
 
 # Rom source repo
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
@@ -10,17 +9,17 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b matrix-a15-official https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
-echo "============================"
-echo "Local manifest clone success"
-echo "============================"
+#git clone -b matrix-a15-official https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
+#echo "============================"
+#echo "Local manifest clone success"
+#echo "============================"
 
 # Sync the repositories
 /opt/crave/resync.sh
 echo "============================"
 
 # Export
-export BUILD_USERNAME=MayureshxKhnome
+export BUILD_USERNAME=mayureshxKhnome
 export BUILD_HOSTNAME=nobody
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
@@ -36,7 +35,4 @@ echo "Signing success"
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-lunch lineage_stone-ap4a-eng
-
-m bacon
-echo "============="
+brunch stone
