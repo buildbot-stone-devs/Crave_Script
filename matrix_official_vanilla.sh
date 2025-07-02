@@ -18,6 +18,9 @@ echo "============================"
 /opt/crave/resync.sh
 echo "============================"
 
+rm -rf packages/apps/Settings
+git clone https://github.com/mayuresh2543/matrixx_packages_apps_Settings.git packages/apps/Settings
+
 # Export
 export BUILD_USERNAME=mayureshxKhnome
 export BUILD_HOSTNAME=nobody
