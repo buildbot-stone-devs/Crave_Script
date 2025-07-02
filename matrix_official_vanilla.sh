@@ -9,7 +9,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b matrix-a15-official-vanilla https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
+git clone -b 15-vanilla https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -19,7 +19,7 @@ echo "============================"
 echo "============================"
 
 # Export
-export BUILD_USERNAME=MayureshxKhnome
+export BUILD_USERNAME=mayureshxKhnome
 export BUILD_HOSTNAME=nobody
 export TZ="Europe/Vilnius"
 echo "======= Export Done ======"
@@ -35,9 +35,6 @@ echo "Signing success"
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-
-lunch lineage_stone-ap4a-eng
-m bacon
 # Brunch
-#brunch stone
+brunch stone
 echo "============="
