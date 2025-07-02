@@ -9,10 +9,10 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-#git clone -b matrix-a15-official https://github.com/Yaap-stone-devs/local_manifests.git .repo/local_manifests
-#echo "============================"
-#echo "Local manifest clone success"
-#echo "============================"
+git clone -b 15 https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
+echo "============================"
+echo "Local manifest clone success"
+echo "============================"
 
 # Sync the repositories
 /opt/crave/resync.sh
