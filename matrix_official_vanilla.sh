@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
+rm -rf prebuilts/clang/host/linux-x86
 
 # Rom source repo
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
