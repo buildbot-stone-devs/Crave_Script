@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b 15 https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
+git clone -b 15-vanilla https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
