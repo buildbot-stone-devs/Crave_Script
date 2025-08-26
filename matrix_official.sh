@@ -44,4 +44,4 @@ m installclean
 
 m bacon
 
-WITH_GMS=True m bacon
+WITH_GMS=true m bacon
