@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests/
-rm -rf prebuilts/clang/host/linux-x86
 
 # Rom source repo
 repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
@@ -42,3 +41,5 @@ echo "====== Envsetup Done ======="
 lunch lineage_stone-bp1a-userdebug
 
 m bacon
+
+WITH_GMS=True m bacon
