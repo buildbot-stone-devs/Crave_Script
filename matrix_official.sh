@@ -40,6 +40,8 @@ echo "====== Envsetup Done ======="
 
 lunch lineage_stone-bp1a-userdebug
 
+m installclean
+
 m bacon
 
 WITH_GMS=True m bacon
