@@ -21,6 +21,9 @@ echo "============================"
 rm -rf packages/apps/Settings
 git clone https://github.com/mayuresh2543/matrixx_packages_apps_Settings.git packages/apps/Settings
 
+rm -rf device/crdroid/sepolicy
+git clone https://github.com/mayuresh2543/android_device_crdroid_sepolicy.git device/crdroid/sepolicy
+
 # Export
 export BUILD_USERNAME=mayureshxKhnome
 export BUILD_HOSTNAME=nobody
