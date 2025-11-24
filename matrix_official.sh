@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # Rom source repo
-repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
+repo init -u https://github.com/ProjectMatrixx/android.git -b 16.0 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Clone local_manifests repository
-git clone -b 15-vanilla https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
+git clone -b 16-vanilla https://github.com/buildbot-stone-devs/local_manifest_matrixx.git .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -20,9 +20,6 @@ echo "============================"
 
 rm -rf packages/apps/Settings
 git clone https://github.com/mayuresh2543/matrixx_packages_apps_Settings.git packages/apps/Settings
-
-rm -rf device/crdroid/sepolicy
-git clone https://github.com/mayuresh2543/android_device_crdroid_sepolicy.git device/crdroid/sepolicy
 
 # Export
 export BUILD_USERNAME=mayureshxKhnome
@@ -41,10 +38,10 @@ echo "Signing success"
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-lunch lineage_stone-bp1a-userdebug
+lunch lineage_stone-bp2a-userdebug
 
 m installclean
 
 m bacon
 
-WITH_GMS=true m bacon
+WITH_GMS=true WITH_QS=true m bacon
